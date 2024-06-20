@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro-component-with-signup-form-master</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted
+                tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </header>
+        <main>
+            <div class="try">
+                <p><span>Try it for free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+                <form class="form-items">
+                    <div>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" class="input">
+                        <img src="images/icon-error.svg" alt="error" aria-hidden="true" id="alert">
+                        <span class="text-alert">First Name cannot be empty</span>
+                    </div>
+                    <div>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" class="input">
+                        <img src="images/icon-error.svg" alt="error" aria-hidden="true" id="alert">
+                        <span class="text-alert">Last Name cannot be empty</span>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email Address" class="input">
+                        <img src="images/icon-error.svg" alt="error" aria-hidden="true" id="alert">
+                        <span class="text-alert">Looks like this is not an email</span>
+                    </div>
+                    <div>
+                        <input type="password" name="password" id="password" placeholder="Password" class="input">
+                        <img src="images/icon-error.svg" alt="error" aria-hidden="true" id="alert">
+                        <span class="text-alert">Password cannot be empty</span>
+                    </div>
+                    <button class="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+                    <p>By clicking the button, you are agreeing to our <span id="terms">Terms and Services</span></p>
+                </form>
+        </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
