@@ -144,7 +144,7 @@ header p {
 
 @media screen and (min-width: 1440px) {
     body {
-        background-image: url("./images/bg-intro-desktop.png");
+        background-image: url("images/bg-intro-desktop.png");
         max-width: 100%;
         padding: 12.1rem 16.5rem 0;
         display: grid;
